@@ -4,26 +4,8 @@ import java.util.Scanner;
 
 public class Cube {
     private Scanner scanner = new Scanner(System.in);
-    private float lowrightx_1,lowrighty_1,upleftx_1,uplefty_1;
-    private float lowrightx_2,lowrighty_2,upleftx_2,uplefty_2;
-    private float lowrightx_3,lowrighty_3,upleftx_3,uplefty_3;
-    private float lowrightx_4,lowrighty_4,upleftx_4,uplefty_4;
-    private float lowrightx_5,lowrighty_5,upleftx_5,uplefty_5;
-    private float lowrightx_6,lowrighty_6,upleftx_6,uplefty_6;
-    private float lowrightx_7,lowrighty_7,upleftx_7,uplefty_7;
-    private float lowrightx_8,lowrighty_8,upleftx_8,uplefty_8;
-    private float lowrightx_9,lowrighty_9,upleftx_9,uplefty_9;
-    private float lowrightx_10,lowrighty_10,upleftx_10,uplefty_10;
-    private float cube[] = {lowrightx_1,lowrighty_1,upleftx_1,uplefty_1,
-            lowrightx_2,lowrighty_2,upleftx_2,uplefty_2,lowrightx_3,lowrighty_3,upleftx_3,uplefty_3,
-            lowrightx_4,lowrighty_4,upleftx_4,uplefty_4,lowrightx_5,lowrighty_5,upleftx_5,uplefty_5,
-            lowrightx_6,lowrighty_6,upleftx_6,uplefty_6,lowrightx_7,lowrighty_7,upleftx_7,uplefty_7,
-            lowrightx_8,lowrighty_8,upleftx_8,uplefty_8,lowrightx_9,lowrighty_9,upleftx_9,uplefty_9,
-            lowrightx_10,lowrighty_10,upleftx_10,uplefty_10};
-    private float pointx_1,pointy_1,pointx_2,pointy_2,pointx_3,pointy_3,pointx_4,pointy_4,pointx_5,pointy_5;
-    private float pointx_6,pointy_6,pointx_7,pointy_7,pointx_8,pointy_8,pointx_9,pointy_9,pointx_10,pointy_10;
-    private float point[] = {pointx_1,pointy_1,pointx_2,pointy_2,pointx_3,pointy_3,pointx_4,pointy_4,pointx_5,pointy_5,
-            pointx_6,pointy_6,pointx_7,pointy_7,pointx_8,pointy_8,pointx_9,pointy_9,pointx_10,pointy_10};
+    private float cube[] = new float[40];
+    private float point[] = new float[20];
     private int cubeN=0,cubeC=0,pointN=0,pointC=0;
 
 

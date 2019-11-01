@@ -9,9 +9,5 @@ public class MyClass {
         cube1.makemoreCube();
         cube1.makemorePoint();
         cube1.pointCheck();
-
-
-
-
     }
 }
